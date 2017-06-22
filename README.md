@@ -2,7 +2,6 @@
 
 计划任务调度器，基于quartz，tophselp，Common.Logging.NLog实现快速开发计划任务或windows服务。
 
-
 # 使用说明
 
 ## 一、windows服务或控制台应用程序安装及使用 
@@ -20,8 +19,7 @@
 4. 安装类库后，项目中会自动添加App_Start文件夹，其中QuartzServerConfig.cs为任务调度器启动配置代码，Register方法会在应用程序启动时自动调用，可根据实际情况自行修改需要启动的任务调度器实例。
 5. NLog日志组件配置,🌹需要设置此文件的属性:复制到输出目录=始终复制,生成操作=内容。
 
-
-# 文件目录
+# 安装后的文件目录
 
 ```
 .
@@ -43,7 +41,7 @@
 ├── App.config/Web.config                        // 系统配置,🌹需要设置配置项<quartz.host ></quartz.host>
 ├── Program.cs									// windwos服务启动配置，🌹注意：HostServiceBootstrap.AutoRun<THostServer>()
 
+```
 
 # License
-
 [GPL](https://github.com/angleszhaixd/FengYun.QuartzServer/master/COPYING)
