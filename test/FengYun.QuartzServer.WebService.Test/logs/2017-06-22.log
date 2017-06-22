@@ -1,6 +1,0 @@
-06-22 11:33:16|Debug|ExecutionContext.RunInternal => ThreadHelper.ThreadStart_Context => QuartzSchedulerThread.Run|Batch acquisition of 1 triggers|
-06-22 11:33:22|Debug|JobRunShell.Initialize => PropertySettingJobFactory.NewJob => SimpleJobFactory.NewJob|Producing instance of Job 'DEFAULT.MyTestJob1', class=FengYun.QuartzServer.WebService.Test.MyTestJob1|
-06-22 11:33:22|Debug|ExecutionContext.RunInternal => ThreadHelper.ThreadStart_Context => QuartzSchedulerThread.Run|Batch acquisition of 0 triggers|
-06-22 11:33:22|Debug|ThreadHelper.ThreadStart_Context => WorkerThread.Run => JobRunShell.Run|Calling Execute on job DEFAULT.MyTestJob1|
-06-22 11:33:22|Info|JobRunShell.Run => BaseSchedulerJob.Execute => MyTestJob1.ExecuteJob|开始执行测试任务111111111===>2017年6月22日|
-06-22 11:33:22|Debug|ThreadHelper.ThreadStart_Context => WorkerThread.Run => JobRunShell.Run|Trigger instruction : NoInstruction|

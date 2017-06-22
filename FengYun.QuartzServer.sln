@@ -7,11 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{218F20DE-FA1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DC9AF402-3F64-48D9-8D01-A3C8427F4EF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FengYun.QuartzServer.HostService.Test", "test\FengYun.QuartzServer.HostService.Test\FengYun.QuartzServer.HostService.Test.csproj", "{ACC7D1C2-6539-4210-AE85-941CF0687B77}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FengYun.QuartzServer.Core", "src\FengYun.QuartzServer.Core\FengYun.QuartzServer.Core.csproj", "{4071DD82-564A-43B6-8357-08F6E23095AC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FengYun.QuartzServer.WebService.Test", "test\FengYun.QuartzServer.WebService.Test\FengYun.QuartzServer.WebService.Test.csproj", "{7D59FCEB-23EE-460D-ADFD-F482668B5963}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "toos", "toos", "{BC55536D-11D0-4F74-9AA1-8BA9F8803D0A}"
 	ProjectSection(SolutionItems) = preProject
@@ -26,36 +22,56 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{44C30063-E4A4-4E58-846A-7AD6A3C81AB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FengYun.QuartzSerer.WebHost.Demo", "examples\FengYun.QuartzSerer.WebHost.Demo\FengYun.QuartzSerer.WebHost.Demo.csproj", "{1EF3FF85-2DA6-4029-938A-8D22E87E4FC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHost.MVC.Test", "test\WebHost.MVC.Test\WebHost.MVC.Test.csproj", "{EA59997F-92A4-4FA8-832A-80EAD88AE5C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebHost.WebForm.Test", "test\WebHost.WebForm.Test\WebHost.WebForm.Test.csproj", "{3F14E768-20BE-457B-B5EB-D5287F329560}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsHost.Service.Test", "test\WindowsHost.Service.Test\WindowsHost.Service.Test.csproj", "{E2DCF111-5003-4431-A24F-7281F891F625}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ACC7D1C2-6539-4210-AE85-941CF0687B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ACC7D1C2-6539-4210-AE85-941CF0687B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ACC7D1C2-6539-4210-AE85-941CF0687B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ACC7D1C2-6539-4210-AE85-941CF0687B77}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4071DD82-564A-43B6-8357-08F6E23095AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4071DD82-564A-43B6-8357-08F6E23095AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4071DD82-564A-43B6-8357-08F6E23095AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4071DD82-564A-43B6-8357-08F6E23095AC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7D59FCEB-23EE-460D-ADFD-F482668B5963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7D59FCEB-23EE-460D-ADFD-F482668B5963}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7D59FCEB-23EE-460D-ADFD-F482668B5963}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7D59FCEB-23EE-460D-ADFD-F482668B5963}.Release|Any CPU.Build.0 = Release|Any CPU
 		{06234A86-CF02-4246-AF4C-113AC5CDB00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{06234A86-CF02-4246-AF4C-113AC5CDB00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06234A86-CF02-4246-AF4C-113AC5CDB00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06234A86-CF02-4246-AF4C-113AC5CDB00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EF3FF85-2DA6-4029-938A-8D22E87E4FC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF3FF85-2DA6-4029-938A-8D22E87E4FC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF3FF85-2DA6-4029-938A-8D22E87E4FC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF3FF85-2DA6-4029-938A-8D22E87E4FC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA59997F-92A4-4FA8-832A-80EAD88AE5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA59997F-92A4-4FA8-832A-80EAD88AE5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA59997F-92A4-4FA8-832A-80EAD88AE5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA59997F-92A4-4FA8-832A-80EAD88AE5C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F14E768-20BE-457B-B5EB-D5287F329560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F14E768-20BE-457B-B5EB-D5287F329560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F14E768-20BE-457B-B5EB-D5287F329560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F14E768-20BE-457B-B5EB-D5287F329560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2DCF111-5003-4431-A24F-7281F891F625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2DCF111-5003-4431-A24F-7281F891F625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2DCF111-5003-4431-A24F-7281F891F625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2DCF111-5003-4431-A24F-7281F891F625}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{ACC7D1C2-6539-4210-AE85-941CF0687B77} = {DC9AF402-3F64-48D9-8D01-A3C8427F4EF2}
 		{4071DD82-564A-43B6-8357-08F6E23095AC} = {218F20DE-FA1D-4514-A25A-4D585B4F43B5}
-		{7D59FCEB-23EE-460D-ADFD-F482668B5963} = {DC9AF402-3F64-48D9-8D01-A3C8427F4EF2}
 		{06234A86-CF02-4246-AF4C-113AC5CDB00A} = {BC55536D-11D0-4F74-9AA1-8BA9F8803D0A}
+		{1EF3FF85-2DA6-4029-938A-8D22E87E4FC8} = {44C30063-E4A4-4E58-846A-7AD6A3C81AB2}
+		{EA59997F-92A4-4FA8-832A-80EAD88AE5C7} = {DC9AF402-3F64-48D9-8D01-A3C8427F4EF2}
+		{3F14E768-20BE-457B-B5EB-D5287F329560} = {DC9AF402-3F64-48D9-8D01-A3C8427F4EF2}
+		{E2DCF111-5003-4431-A24F-7281F891F625} = {DC9AF402-3F64-48D9-8D01-A3C8427F4EF2}
 	EndGlobalSection
 EndGlobal

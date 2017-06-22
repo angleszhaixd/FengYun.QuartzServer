@@ -87,6 +87,12 @@
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if "$(OutDir)" equ "bin\Debug\"  ( 
+xcopy /r /y $(TargetPath) $(ProjectDir)..\..\nuget\Lib\
+xcopy /r /y $(TargetDir)$(TargetName).XML $(ProjectDir)..\..\nuget\Lib\
+)</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
