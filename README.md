@@ -23,23 +23,23 @@
 
 ```
 .
-├── App_Start									        // web程序自启动配置
-│   ├── QuartzServerConfig.cs					// web应用程序启动时自动注册默认的计划任务调度器
-├── NLogNetworkTools                  // NLog日志查看器
-│   ├── NLogMessageForm.exe						// NLog日志查看器主程序
-│   ├── NLogMessageForm.exe.config		// NLog日志查看器主程序配置
-├── QuartzServerDemos                 // 任务调度器及任务详情代码模板
-│   ├── MyTestJob.cs							    // 测试任务详情,需要继承自BaseSchedulerJob
-│   ├── MyTestHostServer.cs						// 测试系统服务计划任务调度器(一般用于windows服务)
-│   ├── MyTestServer.cs							  // 测试普通计划任务调度器类型(一般用于手动触发计划任务)
-├── SericeInstallerBats               // 服务安装批处理文件，🌹具体使用见“说明.txt”
-│   ├── 安装.bat								      // windows服务安装脚本
-│   ├── 启动~停止~重启.bat						 // windows服务启动、停止、重启脚本
-│   ├── 卸载.bat								      // windows服务卸载脚本
-│   ├── 说明.txt								      // 批处理脚本使用说明
-├── NLog.config                       // NLog日志组件配置,🌹需要设置此文件的属性:复制到输出目录=始终复制,生成操作=内容
-├── App.config/Web.config             // 系统配置,🌹需要设置配置项<quartz.host ></quartz.host>
-├── Program.cs									      // windwos服务启动配置，🌹注意：HostServiceBootstrap.AutoRun<THostServer>()
+├── App_Start   // web程序自启动配置
+│   ├── QuartzServerConfig.cs   // web应用程序启动时自动注册默认的计划任务调度器
+├── NLogNetworkTools    // NLog日志查看器
+│   ├── NLogMessageForm.exe   // NLog日志查看器主程序
+│   ├── NLogMessageForm.exe.config    // NLog日志查看器主程序配置
+├── QuartzServerDemos   // 任务调度器及任务详情代码模板
+│   ├── MyTestJob.cs    // 测试任务详情,需要继承自BaseSchedulerJob
+│   ├── MyTestHostServer.cs   // 测试系统服务计划任务调度器(一般用于windows服务)
+│   ├── MyTestServer.cs   // 测试普通计划任务调度器类型(一般用于手动触发计划任务)
+├── SericeInstallerBats   // 服务安装批处理文件，🌹具体使用见“说明.txt”
+│   ├── 安装.bat    // windows服务安装脚本
+│   ├── 启动~停止~重启.bat    // windows服务启动、停止、重启脚本
+│   ├── 卸载.bat    // windows服务卸载脚本
+│   ├── 说明.txt    // 批处理脚本使用说明
+├── NLog.config   // NLog日志组件配置,🌹需要设置此文件的属性:复制到输出目录=始终复制,生成操作=内容
+├── App.config/Web.config // 系统配置,🌹需要设置配置项<quartz.host ></quartz.host>
+├── Program.cs    // windwos服务启动配置，🌹注意：HostServiceBootstrap.AutoRun<THostServer>()
 
 ```
 
