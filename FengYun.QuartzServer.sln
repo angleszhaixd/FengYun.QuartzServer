@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{218F20DE-FA1D-4514-A25A-4D585B4F43B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DC9AF402-3F64-48D9-8D01-A3C8427F4EF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FengYun.QuartzServer.HostService.Test", "test\FengYun.QuartzServer.HostService.Test\FengYun.QuartzServer.HostService.Test.csproj", "{ACC7D1C2-6539-4210-AE85-941CF0687B77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FengYun.QuartzServer.Core", "src\FengYun.QuartzServer.Core\FengYun.QuartzServer.Core.csproj", "{4071DD82-564A-43B6-8357-08F6E23095AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FengYun.QuartzServer.WebService.Test", "test\FengYun.QuartzServer.WebService.Test\FengYun.QuartzServer.WebService.Test.csproj", "{7D59FCEB-23EE-460D-ADFD-F482668B5963}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "toos", "toos", "{BC55536D-11D0-4F74-9AA1-8BA9F8803D0A}"
+	ProjectSection(SolutionItems) = preProject
+		toos\说明.txt = toos\说明.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLogNetworkForm", "toos\NLogNetworkForm\NLogNetworkForm.csproj", "{06234A86-CF02-4246-AF4C-113AC5CDB00A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3C72BB8-E9E4-4B60-8104-60EBF01BD2D0}"
+	ProjectSection(SolutionItems) = preProject
+		COPYING = COPYING
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACC7D1C2-6539-4210-AE85-941CF0687B77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC7D1C2-6539-4210-AE85-941CF0687B77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC7D1C2-6539-4210-AE85-941CF0687B77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC7D1C2-6539-4210-AE85-941CF0687B77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4071DD82-564A-43B6-8357-08F6E23095AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4071DD82-564A-43B6-8357-08F6E23095AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4071DD82-564A-43B6-8357-08F6E23095AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4071DD82-564A-43B6-8357-08F6E23095AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D59FCEB-23EE-460D-ADFD-F482668B5963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D59FCEB-23EE-460D-ADFD-F482668B5963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D59FCEB-23EE-460D-ADFD-F482668B5963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D59FCEB-23EE-460D-ADFD-F482668B5963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06234A86-CF02-4246-AF4C-113AC5CDB00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06234A86-CF02-4246-AF4C-113AC5CDB00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06234A86-CF02-4246-AF4C-113AC5CDB00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06234A86-CF02-4246-AF4C-113AC5CDB00A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACC7D1C2-6539-4210-AE85-941CF0687B77} = {DC9AF402-3F64-48D9-8D01-A3C8427F4EF2}
+		{4071DD82-564A-43B6-8357-08F6E23095AC} = {218F20DE-FA1D-4514-A25A-4D585B4F43B5}
+		{7D59FCEB-23EE-460D-ADFD-F482668B5963} = {DC9AF402-3F64-48D9-8D01-A3C8427F4EF2}
+		{06234A86-CF02-4246-AF4C-113AC5CDB00A} = {BC55536D-11D0-4F74-9AA1-8BA9F8803D0A}
+	EndGlobalSection
+EndGlobal

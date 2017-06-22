@@ -1,0 +1,5 @@
+E:\Github\FengYun.QuartzServer\test\FengYun.QuartzServer.HostService.Test\bin\Debug\FengYun.QuartzServer.HostService.Test.exe
+E:\Github\FengYun.QuartzServer\test\FengYun.QuartzServer.HostService.Test\bin\Debug\FengYun.QuartzServer.HostService.Test.pdb
+E:\Github\FengYun.QuartzServer\test\FengYun.QuartzServer.HostService.Test\obj\Debug\FengYun.QuartzServer.HostService.Test.exe
+E:\Github\FengYun.QuartzServer\test\FengYun.QuartzServer.HostService.Test\obj\Debug\FengYun.QuartzServer.HostService.Test.pdb
+E:\Github\FengYun.QuartzServer\test\FengYun.QuartzServer.HostService.Test\obj\Debug\FengYun.QuartzServer.HostService.Test.csprojResolveAssemblyReference.cache

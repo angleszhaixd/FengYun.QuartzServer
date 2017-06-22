@@ -1,0 +1,10 @@
+E:\Github\FengYun.QuartzServer\toos\NLogNetworkForm\bin\Debug\NLogNetworkForm.exe
+E:\Github\FengYun.QuartzServer\toos\NLogNetworkForm\bin\Debug\NLogNetworkForm.pdb
+E:\Github\FengYun.QuartzServer\toos\NLogNetworkForm\obj\Debug\NLogNetworkForm.csprojResolveAssemblyReference.cache
+E:\Github\FengYun.QuartzServer\toos\NLogNetworkForm\obj\Debug\CacheManager.Logging.NLog.WinFrom.Form1.resources
+E:\Github\FengYun.QuartzServer\toos\NLogNetworkForm\obj\Debug\NLogNetworkForm.Properties.Resources.resources
+E:\Github\FengYun.QuartzServer\toos\NLogNetworkForm\obj\Debug\NLogNetworkForm.csproj.GenerateResource.Cache
+E:\Github\FengYun.QuartzServer\toos\NLogNetworkForm\obj\Debug\NLogNetworkForm.exe
+E:\Github\FengYun.QuartzServer\toos\NLogNetworkForm\obj\Debug\NLogNetworkForm.pdb
+E:\Github\FengYun.QuartzServer\toos\NLogNetworkForm\bin\Debug\NLogNetworkForm.exe.config
+E:\Github\FengYun.QuartzServer\toos\NLogNetworkForm\bin\Debug\NLogNetworkForm.XML

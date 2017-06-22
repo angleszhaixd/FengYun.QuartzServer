@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NLogNetworkForm</name>
+    </assembly>
+    <members>
+        <member name="F:CacheManager.Logging.NLog.WinFrom.Form1.udpcSend">
+            <summary>
+            用于UDP发送的网络服务类
+            </summary>
+        </member>
+        <member name="F:CacheManager.Logging.NLog.WinFrom.Form1.udpcRecv">
+            <summary>
+            用于UDP接收的网络服务类
+            </summary>
+        </member>
+        <member name="F:CacheManager.Logging.NLog.WinFrom.Form1.IsUdpcRecvStart">
+            <summary>
+            开关：在监听UDP报文阶段为true，否则为false
+            </summary>
+        </member>
+        <member name="F:CacheManager.Logging.NLog.WinFrom.Form1.thrRecv">
+            <summary>
+            线程：不断监听UDP报文
+            </summary>
+        </member>
+        <member name="M:CacheManager.Logging.NLog.WinFrom.Form1.btnRecv_Click(System.Object,System.EventArgs)">
+            <summary>
+            按钮：接收数据开关
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CacheManager.Logging.NLog.WinFrom.Form1.ReceiveMessage(System.Object)">
+            <summary>
+            接收数据
+            </summary>
+            <param name="obj"></param>
+        </member>
+        <member name="M:CacheManager.Logging.NLog.WinFrom.Form1.Form1_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            关闭程序，强制退出
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:CacheManager.Logging.NLog.WinFrom.Form1.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:CacheManager.Logging.NLog.WinFrom.Form1.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:CacheManager.Logging.NLog.WinFrom.Form1.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:CacheManager.Logging.NLog.WinFrom.Program.Main">
+            <summary>
+            应用程序的主入口点。
+            </summary>
+        </member>
+        <member name="T:NLogNetworkForm.Properties.Resources">
+            <summary>
+              强类型资源类，用于查找本地化字符串等。
+            </summary>
+        </member>
+        <member name="P:NLogNetworkForm.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:NLogNetworkForm.Properties.Resources.Culture">
+            <summary>
+              覆盖当前线程的 CurrentUICulture 属性
+              使用此强类型的资源类的资源查找。
+            </summary>
+        </member>
+    </members>
+</doc>
