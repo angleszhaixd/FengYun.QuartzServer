@@ -10,14 +10,14 @@
 3. 编写计划任务调度器，参考 /QuartzServerDemos/MyTestHostServer.cs，实现抽象方法initScheduleJobs，添加步骤2中编写的计划任务详情，具体使用CreateJob<TJob>()方法进行任务的添加，任务触发器的使用可参考官方文档。[quartz触发器文档](https://www.quartz-scheduler.net/documentation/quartz-2.x/tutorial/crontriggers.html)
 4. windows服务启动配置调用，参考 Program.cs。
 5. App.Config配置文件，🌹类库安装后，App.Config中会自动添加<quartz.host></quartz.host>,此配置项主要用户设置windows服务安装的基本信息,可以根据实际情况自行设置,注意quartz.host.serverImplementationTypeName的值。
-6. NLog日志组件配置,🌹需要设置此文件的属性:复制到输出目录=始终复制,生成操作=内容。
+6. NLog.config 日志组件配置,🌹需要设置此文件的属性:复制到输出目录=始终复制,生成操作=内容。
 
 ## 二、web应用程序安装及使用
 1. 通过vs nuget包管理器安装 FengYun.QuartzServer.WebHost，命令：PM> Install-Package FengYun.QuartzServer.WebHost。
 2. 编写具体的任务执行代码，参考 /QuartzServerDemos/MyTestJob.cs，实现抽象方法ExecuteJob。[quartz任务文档](https://www.quartz-scheduler.net/documentation/quartz-2.x/tutorial/more-about-jobs.html)
 3. 编写计划任务调度器，参考 /QuartzServerDemos/MyTestServer.cs，实现抽象方法initScheduleJobs，添加步骤2中编写的计划任务详情，具体使用CreateJob<TJob>()方法进行任务的添加，任务触发器的使用可参考官方文档。[quartz触发器文档](https://www.quartz-scheduler.net/documentation/quartz-2.x/tutorial/crontriggers.html)
 4. 安装类库后，项目中会自动添加App_Start文件夹，其中QuartzServerConfig.cs为任务调度器启动配置代码，Register方法会在应用程序启动时自动调用，可根据实际情况自行修改需要启动的任务调度器实例。
-5. NLog日志组件配置,🌹需要设置此文件的属性:复制到输出目录=始终复制,生成操作=内容。
+5. NLog.config 日志组件配置,🌹需要设置此文件的属性:复制到输出目录=始终复制,生成操作=内容。
 
 # 安装后的文件目录
 
